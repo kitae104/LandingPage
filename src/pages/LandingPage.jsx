@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import CounselingCategories from "../components/CounselingCategories";
@@ -64,9 +65,12 @@ export default function LandingPage() {
                             지금 첫 상담을 시작하고 마음의 짐을 덜어보세요.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center relative z-10">
-                            <button className="px-10 py-5 bg-white text-blue-600 rounded-2xl font-black text-xl hover:bg-slate-50 transition-all active:scale-95">
+                            <Link
+                                to="/sample/java-3d"
+                                className="inline-block px-10 py-5 bg-white text-blue-600 rounded-2xl font-black text-xl hover:bg-slate-50 transition-all active:scale-95 text-center"
+                            >
                                 지금 무료 시작하기
-                            </button>
+                            </Link>
                             <button className="px-8 py-5 border-2 border-white/30 text-white rounded-2xl font-bold text-lg hover:bg-white/10 transition-all backdrop-blur-sm">
                                 도입 문의하기
                             </button>

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import cn from "../utils/cn";
 
 export default function Navbar() {
@@ -53,6 +54,12 @@ export default function Navbar() {
                     >
                         요금
                     </a>
+                    <Link
+                        to="/sample/java-3d"
+                        className="hover:text-blue-600 transition-colors"
+                    >
+                        Java 3D
+                    </Link>
                 </div>
 
                 <div className="flex items-center gap-3">

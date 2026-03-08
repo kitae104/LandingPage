@@ -15,4 +15,12 @@ export const SAMPLES = [
             'https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&q=80&w=1200',
         loader: () => import('../pages/samples/ai-sign/LandingPage.jsx'),
     },
+    {
+        id: 'java-3d',
+        title: 'Java 3D',
+        description: '3D 스타일 랜딩으로 구성된 Java 프로그래밍 학습 페이지',
+        thumbnail:
+            'https://images.unsplash.com/photo-1518779578993-ec3579fee39f?auto=format&fit=crop&q=80&w=1200',
+        loader: () => import('../pages/samples/java-3d/LandingPage.jsx'),
+    },
 ]
